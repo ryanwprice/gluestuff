@@ -24,7 +24,7 @@ body {
 /*    background-color:rgba(126,126,126,0.25);*/
     border-radius: 1rem;
     width: 100%;
-    padding:1rem 0;
+    padding:1rem 0 110px 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap:20px;
@@ -32,6 +32,7 @@ body {
 
 h1 {
     text-align: center;
+    margin:0;
 }
 
 h1, h2, h3 {
@@ -40,7 +41,7 @@ h1, h2, h3 {
 
 h1 img {
     fill: white;
-    max-width: 600px;
+    max-width: 30vw;
 }
 
 form {
